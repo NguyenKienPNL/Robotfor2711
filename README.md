@@ -31,7 +31,7 @@ FILE2: LOGIC.PY
 File sử dụng nhiều thư viện trong hệ thống thư viện đầy phong phú của python như: datetime, time, pygame, ...
 
 FILE3: SPEAK.PY
-Đây là file được tạo ra giúp robot xuất dữ liệu dươi dạng âm thanh thay vì in ra terminal như những chương trình bình thường. Sở dĩ làm được như vậy là nhờ pyttsx3. Đây cũng là một thư viện hay khi có thể đưa string sang giọng nói một cách trực tiếp mà không cần phải tạo file audio rồi mở file như thư viện os.
+Đây là file được tạo ra giúp robot xuất dữ liệu dưới dạng âm thanh thay vì in ra terminal như những chương trình bình thường. Sở dĩ làm được như vậy là nhờ pyttsx3. Đây cũng là một thư viện hay khi có thể đưa string sang giọng nói một cách trực tiếp mà không cần phải tạo file audio rồi mở file như thư viện os.
 Một vài dòng code ví dụ(biến text ở đây có thể hiểu là dữ liệu đầu ra từ file logic.py)
 ```sh
 import pyttsx3 as pt3
